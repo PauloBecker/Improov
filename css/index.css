@@ -1,0 +1,53 @@
+
+ header.masthead {
+    /* height: 1200px; */
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url("../assets/img/logos/logo-improov-tam-alt.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+@media (min-width: 992px) {
+
+    
+    header.masthead {
+        /* height: 2400px; */
+        padding-top: 10.5rem;
+        padding-bottom: 6rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-image: url("../assets/img/logos/logo-improov-tam-alt.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+      }
+}
+.masthead strong{
+    color: #d9aa00;
+    font-size: larger;
+}
+
+.navbar-brand-img{
+    
+    height: 500px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+#mainNav.navbar-shrink .navbar-brand img {
+    height: 3.5rem;
+}
+
+#mainNav .navbar-brand img{
+    /* height: 5rem; */
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    background-color: #333132;
+}
